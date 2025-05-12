@@ -6,7 +6,7 @@
     Retrieve Single Post by ID.
 ### Description
    Verify that the API returns the correct post when queried by a valid post ID.
-### Request 
+### Endpoint 
     'GET/ https://jsonplaceholder.typicode.com/posts/29'
 ### Expected Result
     Match the post with ID `29`.
