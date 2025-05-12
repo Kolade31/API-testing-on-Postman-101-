@@ -6,7 +6,7 @@
     Retrieve All Posts.
 ### Description
     Verify that the API returns a list of all posts.
-### Request 
+### Endpoint 
     'GET/ https://jsonplaceholder.typicode.com/posts'
 ### Expected Result
     An array of posts with properties: `userId`, `id`, `title`, `body`.
