@@ -13,4 +13,4 @@
 ### Status Code: 
     '200 OK
 ### Actual Result
-       The response body was empty. Butsubsequent requests to retrieve the deleted post was successful as I am using a mock API.
+       The response body was empty. But subsequent requests to retrieve the deleted post was successful as I am using a mock API.
