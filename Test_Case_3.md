@@ -3,14 +3,27 @@
 ### Test ID
     3
 ### Test Scenario
-    Retrieve Single Post by ID.
+    Create a New Post.
 ### Description
-   Verify that the API returns the correct post when queried by a valid post ID.
-### Request 
-    'GET/ https://jsonplaceholder.typicode.com/posts/29'
+    Verify that the API allows the creation of a new post.
+### Endpoint 
+    'POST/https://jsonplaceholder.typicode.com/posts'
+### Request Body
+#### JSON
+
+    {
+
+      "userId": 11,
+  
+      "title": "Orationis serenitas",
+  
+      "body": "Deus, da mihi serenitatem ad accipienda quae non possum mutare, animos mutare quae possum, ac            sapientiam differentiam cognoscere."
+  
+    }
+
 ### Expected Result
-    Match the post with ID `29`.
+    The response body should include the created post with the same title, body, and userId, along with a new id.
 ### Status Code: 
-    '200  0K
+    '201  Created
 ### Actual Result
-    Match the post with ID `29`.
+     The response body included the created post with the same title, body, and userId, along with a new id.
