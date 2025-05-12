@@ -13,4 +13,4 @@
 ### Status Code: 
     '200  0K
 ### Actual Result
-    Match the post with ID `29`.
+    Post matched with ID `29`.
