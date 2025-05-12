@@ -7,7 +7,7 @@ JSONPlaceholder is a free fake API for testing and prototyping. It offers resour
 
 ## Test Cases
 
-The following test cases are documented in the `TEST_CASES.md` file:
+The following test cases are documented in the test cases file:
 
 1. **Retrieve All Posts**
 2. **Retrieve Single Post by ID**
